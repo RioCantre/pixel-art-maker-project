@@ -39,6 +39,7 @@ h2:first-of-type {
 }
 h3 {
   font-size: 21px;
+  color: var(--primary-color);
 }
 
 /* style for grids */
@@ -70,21 +71,29 @@ input[type="number"] {
 
 #inputHeight,
 #inputWidth {
-  margin-left: 25%;
+  margin-left: 27%;
   text-align: center;
+  border-radius: 20px;
 }
 .submit-button {
   background-color: var(--secondary-color);
   color: var(--sub-secondary-color);
-  border-radius: 10px;
+  border-radius: 20px;
+  transition: all 200ms ease;
+  width: 90px;
 }
 .submit-button:hover {
   color: var(--hover-color);
+  cursor: url("https://raw.githubusercontent.com/wesbos/CSS-Cursors/gh-pages/source/santahand.png"),
+    default;
 }
 
 /* main style for the color picker */
 #colorPicker {
   margin-left: 40%;
+  border-radius: 10px;
+  cursor: url("https://raw.githubusercontent.com/wesbos/CSS-Cursors/gh-pages/source/santahand.png"),
+    default;
 }
 
 /* style for footer */
@@ -99,6 +108,7 @@ footer a {
   color: var(--secondary-color);
   font-size: 10px;
   text-decoration: none;
+  transition: all 200ms ease;
 }
 footer a:hover {
   color: var(--hover-background-color);
