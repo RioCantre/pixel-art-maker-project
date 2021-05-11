@@ -5,6 +5,7 @@ var sizePicker = document.getElementById("sizePicker");
 color.addEventListener("click", function () { });
 sizePicker.addEventListener("submit", gridLayout);
 
+
 function gridLayout(event) {
     event.preventDefault();
     makeGrid();
