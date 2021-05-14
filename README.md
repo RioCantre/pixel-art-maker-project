@@ -1,4 +1,4 @@
-# pixel-art-maker-project
+# Pixel Art Maker Project by Rio Cantre
 
 ## Table of Content
 
@@ -25,20 +25,20 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 
 ## Technologies
 
-Built the project with HTML and CSS to build the application.
+Begin the project with HTML and CSS to build the application.
+
 Write JavaScript code that lets the user create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
 
 ## Project
 
 ![preview](/images/preview.png)
 
-It's a simple game for making pixel art.
-Check it out here and enjoy playing!
+It's a simple game for making pixel art. Check it out here and enjoy playing!
 
-[Click here to start playing!👈🏼](https://priceless-lewin-510280.netlify.app/).
+- [PIXEL ART MAKER 🎨 ](https://priceless-lewin-510280.netlify.app/)
 
 ## Credits
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/)
-[A drip of Javascript](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
-[Grepper](https://www.codegrepper.com/code-examples/javascript/double+click+event+in+javascript)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [A drip of Javascript](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
+- [Grepper](https://www.codegrepper.com/code-examples/javascript/double+click+event+in+javascript)
