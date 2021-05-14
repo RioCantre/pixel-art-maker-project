@@ -7,6 +7,7 @@ color.addEventListener('click', function () { });
 // add listener to select the grid size
 sizePicker.addEventListener('submit', gridLayout);
 
+
 // reset and prevent page refresh on submit
 function gridLayout(event) {
     event.preventDefault();
@@ -28,7 +29,10 @@ function makeGrid() {
             var cell = row.insertCell(c);
             // add listener to fill the selected cell
             cell.addEventListener('click', fillSquare);
+            // add listener to erase when double click
+            cell.addEventListener('dblclick', erase);
         }
+        
     }
     
 }
@@ -39,5 +43,12 @@ makeGrid(25, 25);
 function fillSquare() {
     this.setAttribute('style', `background-color: ${color.value}`);
 }
+
+function erase() {
+     this.setAttribute('style', 'background-color: #fbf6ec');
+}
+
+
+
 
 
